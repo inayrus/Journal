@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="3"
+    android:rowCount="3">
+
+    <TextView
+        android:id="@+id/mainMood"
+        android:layout_width="100dp"
+        android:layout_height="77dp"
+        android:layout_rowSpan="2"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:layout_marginEnd="5dp"
+        android:gravity="center_horizontal"
+        android:paddingStart="5dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="4dp"
+        android:text="😊✨😻"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/mainTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_gravity="start|top"
+        android:fontFamily="casual"
+        android:paddingTop="15dp"
+        android:text="Title"
+        android:textColor="@color/colorAccent"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mainDate"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_gravity="start|top"
+        android:padding="2dp"
+        android:text="date n time" />
+
+</GridLayout>
